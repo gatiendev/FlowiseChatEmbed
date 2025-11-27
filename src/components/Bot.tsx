@@ -185,7 +185,8 @@ export type LeadsConfig = {
   successMessage?: string;
 };
 
-const defaultWelcomeMessage = 'Hi there! How can I help?';
+const defaultWelcomeMessage =
+  "Hello! I'm here to help with any questions you have. 😊 | Bonjour ! Je suis là pour répondre à toutes vos questions. 😊";
 
 /*const sourceDocuments = [
     {

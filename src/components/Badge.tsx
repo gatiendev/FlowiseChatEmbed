@@ -41,7 +41,7 @@ export const Badge = (props: Props) => {
   return (
     <>
       <Show when={props.footer?.showFooter === undefined || props.footer?.showFooter === null || props.footer?.showFooter === true}>
-        <span
+        {/* <span
           class="w-full text-center px-[10px] pt-[6px] pb-[10px] m-auto text-[13px]"
           style={{
             color: props.footer?.textColor ?? props.poweredByTextColor ?? defaultTextColor,
@@ -60,7 +60,7 @@ export const Badge = (props: Props) => {
           >
             <span>&nbsp;{props.footer?.company ?? 'Flowise'}</span>
           </a>
-        </span>
+        </span> */}
       </Show>
       <Show when={props.footer?.showFooter === false}>
         <span
